@@ -1,0 +1,14 @@
+C-Create
+R-Read/ Search
+U-Update/Edit
+D-Delete/Remove
+
+Array=['Bahubali','Bahu','200 mil']
+JSON={name;'Bahubali',actor:'Bahu',collection:'200 mil'}
+
+Array of Objects
+[
+    {name:'Avengers',collection:'300 mil'},
+    {name: 'HULK', collection: '170 mil'},
+    {name:'Superman',collection:'400 mil'}
+]

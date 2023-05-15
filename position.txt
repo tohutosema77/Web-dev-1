@@ -1,0 +1,6 @@
+Static
+Altering the top element will effect the following
+Absolute
+Relation
+Fixed
+Sticky

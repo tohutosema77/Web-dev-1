@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <select name="" id="elementChooser">
+        <option value="h1">H1</option>
+        <option value="P">P</option>
+        <option value="input">input</option>
+        <option value="h2">h2</option>
+    </select>
+    <textarea id="input"></textarea>
+    <button onclick="genesis()"Submit></button>
+    <div id="demo">
+
+    </div>
+    <script>
+        demoObj=document.getElementById('demo');
+        inputObj=document.getElementById('input');
+        elementObj=document.getElementById('elementChooser');
+
+        function genesis()
+        {
+            element=elementObj.value;
+            console.log(inputObj.value)
+            obj=document.createElement(element)
+            if(element!='input')
+             obj.innerHTML=inputObj.innerHTML;
+            else
+            obj.value=inputObj.innerHTML ;
+
+            demoObj.appendChild(obj);
+        }
+    </script>
+    
+</body>
+</html>

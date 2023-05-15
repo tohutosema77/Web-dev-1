@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<div>
+    
+ <input type="text" id="population" placeholder="Pop">
+ <button id="trigger" onclick="creatRecord()">Add Record</button>
+</div>
+<input id="search" class="search" type="text" placeholder="Search here..." onkeyup="search()">
+<div id="demo">
+
+</div>
+<script>
+    currentAction='add';
+    edited=-1;
+    nameObj=document.getElementById("name");
+    capitalObj=document.getElementById("capital");
+    popObj=document.getElementById("population");
+    triggerObj=document.getElementById("trigger");
+
+    records=[...]
+    render(records);
+    
+    function createRecord()...
+    function render(data)
+    {
+        html=''
+        for ( i = i < data.length; i++) {
+        triggerObj.innerHTML=update Record;
+        currentAction='edit';
+        editInd=ind;
+            
+        }
+        function search()
+        {
+            searchObj=document.getElementById("search");
+            searchValue=searchObj.value;
+            searchResults=[]
+
+            for( i = 0; i < records.length; i++) {
+                if(records[i].name.toLowerCase().includes(searchValue.toLowercase()))
+                {
+                    searchResults.push(records[i]);
+                }
+                console.log("search Results=",searchResults);
+                render(searchResults)
+                
+            }
+        }
+    }
+</script>
+ <body>
+    
+</body>
+</html>

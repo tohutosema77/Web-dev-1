@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .abs1,.abs2
+    {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+    .abs1{
+        background-color: green;
+        z-index: 2;
+    }
+    .abs2{
+        background-color: blue;
+        z-index: 1;
+        left: 100px;
+    }
+    .abs2:hover{
+        z-index: 3;
+    }
+   </style>
+</head>
+<body>
+    <div class="abs1"></div>
+    <div class="abs2"></div>
+</body>
+</html>

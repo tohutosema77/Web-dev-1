@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1>Welcome</h1>
+    <h1>Test</h1>
+    <h1>World</h1>
+    <button onclick="update()">Change</button>
+    <script>
+        function update()
+        {
+            obj=document.getElementsByTagName("h1")
+            console.log("object=",obj);
+            obj[1].innerHTML='to the';
+        }
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,7 @@
+Document Object MOdel(DOM)-tree:
+
+ Object:
+    A Entity with set of attributes/properties
+    A HTML Element
+Document: <h1>   Welcome </h1>
+Object: {name:h1 ,}    
